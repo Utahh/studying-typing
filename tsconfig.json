@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js", // aonde sera gerado os arquivos JS
+        "target": "ES6",
+        "noEmitOnError": true, // ele so executa se estiver tudo certo 
+        "noImplicitAny": true
+    }, 
+    "include": [
+        "app/**/*"
+    ] //onde estao as pastas TS aonde sera executado
+    
+}
+
